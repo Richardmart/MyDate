@@ -8,9 +8,6 @@
  * Has getter methods to return year, month, or day
  * setDate method to set date using milliseconds
  */
-import java.util.Calendar;
-import java.util.GregorianCalendar;
-
 public class TestMyDate {
     public static void main(String[] args){
         //Create first MyDate object using current date
@@ -18,6 +15,7 @@ public class TestMyDate {
         //Create second MyDate object using time in milliseconds
         MyDate myDate2 = new MyDate(34355555133101L);
     }
+
 }
 
 class MyDate {
